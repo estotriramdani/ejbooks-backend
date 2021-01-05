@@ -22,12 +22,18 @@ $sql = "INSERT INTO `daftar_buku` (`id_buku`, `kategori`, `pengarang`, `judul`, 
 $hasil = mysqli_query($koneksi, $sql);
 //Kondisi apakah berhasil atau tidak
 if ($hasil) {
-	echo "Berhasil insert data";
+  echo "<script>\n";
+  echo "  alert('berhasil tambah data')\n";
+  echo "  location.replace('index.php');\n";
+	echo "</script>";
 	exit;
 }
 else {
-	echo "Gagal insert data";
+	echo "<script>\n";
+  echo "  alert('gagal tambah data')\n";
+  echo "  location.replace('index.php');\n";
+  echo "</script>";
 	exit;
-}  
+}   
 
 ?>

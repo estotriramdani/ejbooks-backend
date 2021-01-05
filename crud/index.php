@@ -18,6 +18,7 @@
         <th scope="col">Judul</th>
         <th scope="col">Pengarang</th>
         <th scope="col">Tahun</th>
+        <th scope="col" class="text-center">Best Seller</th>
         <th scope="col" class="text-center">Aksi</th>
       </tr>
     </thead>
@@ -34,8 +35,9 @@
         <td><?= $d['judul']; ?></td>
         <td><?= $d['pengarang']; ?></td>
         <td><?= $d['tahun']; ?></td>
+        <td class="text-center"><?= $d['best_seller']; ?></td>
         <td class="text-center">
-          <a href="aksi_edit.php?id=<?= $d['id_buku']; ?>" class="btn btn-warning">EDIT</a> 
+          <a href="ubah_buku.php?id=<?= $d['id_buku']; ?>" class="btn btn-warning">EDIT</a> 
           <a href="aksi_hapus.php?id=<?= $d['id_buku']; ?>" class="btn btn-danger" onClick="return confirm('Yakin hapus?')">DELETE</a>
         </td>
       </tr>

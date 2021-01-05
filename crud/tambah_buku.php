@@ -2,7 +2,7 @@
     <?php include_once 'navbar.php'; ?>
 
     <div class="container mb-4 mt-4">
-      <h3>Tambah Data Buku</h3>
+      <h3 class="mb-4">Tambah Data Buku</h3>
       <form action="aksi_tambah.php" method="post" enctype="multipart/form-data">
 
         <div class="form-group row">
@@ -57,7 +57,7 @@
         <div class="form-group row">
           <label class="col-sm-2 col-form-label">Sinopsis</label>
           <div class="col-sm-10">
-            <textarea name="sinopsis" id="" rows="10" class="w-100 form-control"></textarea>
+            <textarea name="sinopsis" id="editor" rows="10" class="w-100 form-control"></textarea>
           </div>
         </div>
 
@@ -78,15 +78,6 @@
           </div>
         </div>
 
-        <!-- <div class="form-group row">
-          <label class="col-sm-2 col-form-label">Best Seller?</label>
-          <div class="col-sm-10">
-            <select name="best_seller" id="" class="form-control">
-              <option value="0">Tidak</option>
-              <option value="1">Ya</option>
-            </select>
-          </div>
-        </div> -->
         <input type="submit" name="" value="Simpan" class="btn btn-primary" />
       </form>
     </div>
