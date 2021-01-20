@@ -1,0 +1,22 @@
+.menu {
+  margin-top: 30vh;
+  display: flex;
+  justify-content: center;
+  max-height: 90vh;
+}
+
+.header {
+  background-color: salmon;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50vh;
+}
+
+.header a {
+  display: inline-block;
+}
+
+.header a:hover {
+}

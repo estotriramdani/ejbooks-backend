@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Database Buku EJ Books</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="../">Ruang Penulis</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../pendataan-penulis"
+                >Pendataan Penulis</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../data-buku/">Data Buku</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../cek-sertifikat/">Sertifikat</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-sm-12">
+          <h2 class="mt-4">Database Buku EJ Books</h2>
+          <div class="row mt-4">
+            <div class="col-sm-9 mb-3">
+              <input
+                type="text"
+                class="form-control input-keyword"
+                placeholder="Ketik judul buku, lalu klik cari"
+              />
+            </div>
+            <div class="col-sm-3">
+              <button class="btn btn-primary w-100" id="search-button">
+                Cari
+              </button>
+            </div>
+          </div>
+          <!-- hasil pencarian -->
+          <div class="row mt-4 hasil">
+            <h4 class="ml-5">Silakan cari buku</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

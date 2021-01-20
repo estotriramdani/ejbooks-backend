@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cek Sertifikat</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <style type="text/css" media="print">
+      @page {
+        size: landscape;
+      }
+    </style>
+    <style>
+      * {
+        color-adjust: exact !important; /*Firefox*/
+      }
+      body {
+        height: 98vh;
+      }
+      .sertifikat-wrapper {
+        transform: scale(1.2, 1.2);
+        -webkit-print-color-adjust: exact;
+      }
+      .judul {
+        padding-top: 20px !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sertifikat-wrapper"></div>
+    </div>
+    <div
+      class="col-9 text-right"
+      style="position: fixed; bottom: 0px; right: 0px"
+    >
+      <p style="display: inline-block">Silakan screenshot halaman ini atau</p>
+      <a
+        href="sertifikat.html"
+        class="btn btn-primary text-right"
+        onclick="printSertif()"
+        >Cetak Sertifikat</a
+      >
+    </div>
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+      let sertifikatWrapper = document.querySelector(".sertifikat-wrapper");
+      sertifikatWrapper.innerHTML = localStorage.getItem("sertifikat");
+      function printSertif() {
+        window.print();
+      }
+    </script>
+  </body>
+</html>

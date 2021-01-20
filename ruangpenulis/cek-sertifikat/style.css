@@ -1,0 +1,137 @@
+body {
+  height: 100%;
+}
+
+.sertifikat-wrapper {
+  margin: 0 auto;
+  padding: 0;
+  height: 595px;
+  width: 842px;
+  background-color: #f4f3ee;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+}
+
+.intro {
+  line-height: 595px;
+}
+
+.layer {
+  height: 595px;
+  width: 842px;
+  position: absolute;
+  z-index: 20;
+}
+
+.kiri-atas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.kiri-bawah {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.kanan-bawah {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.kanan-atas {
+  font-size: 12px;
+  text-decoration: underline;
+  position: absolute;
+  top: 18px;
+  right: 18px;
+}
+
+.sertifikat-isi {
+  width: 100%;
+}
+
+.judul {
+  margin-top: 50px;
+  font-size: 29px;
+  margin-bottom: 13px;
+}
+
+.kode {
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.diberikan {
+  font-size: 17px;
+  margin-bottom: 21px;
+}
+
+.nama {
+  font-size: 26px;
+  margin-bottom: 3px;
+}
+
+.garis-1 {
+  margin: 0 auto;
+  width: 320px;
+  height: 3px;
+  background-color: #000;
+}
+
+.sebagai {
+  margin-top: 30px;
+  font-size: 17px;
+  margin-bottom: 13px;
+}
+
+.judul-buku {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.tanggal {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.tanda-tangan {
+  margin: 0 auto;
+  width: 293px;
+  height: 136px;
+  position: relative;
+}
+
+.owner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.logo {
+  position: absolute;
+  top: 35px;
+}
+
+.ttd {
+  position: absolute;
+  top: 25px;
+  right: 0;
+  left: 0;
+}
+
+.ttd img {
+  width: 120px;
+}
+
+.nama-owner {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
