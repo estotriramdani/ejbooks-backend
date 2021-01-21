@@ -43,6 +43,9 @@
             <li class="nav-item">
               <a class="nav-link" href="cover_slider.php">Cover Slider</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sertifikat.php">Sertifikat</a>
+            </li>
           </ul>
         </div>
       </div>
